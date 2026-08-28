@@ -104,3 +104,5 @@ map.on('click', function(e){
       })
       .addTo(map);
 })
+//-------Search-----------------------------------------------------------------------------------
+new L.Control.Geocoder().addTo(map);
